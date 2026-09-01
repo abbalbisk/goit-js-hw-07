@@ -27,7 +27,7 @@ const images = [
 const ulElem = document.querySelector('.gallery');
 
 function imageTemplate(item) {
-  return `<li classs="gallery-item"><img src=${item.url} alt=${item.alt} width = "360" height ="300"/></li>`;
+  return `<li class="gallery-item"><img src="${item.url}" alt="${item.alt}" width = "360" height ="300"/></li>`;
 }
 
 function imagesTemplate(items) {
